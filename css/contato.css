@@ -1,0 +1,55 @@
+/*os mesmos códigos feitos no arquivo style.css, com uma unica alteração onde foi utilizado as classes para separar os conteudos em HTML*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(270deg, #882ec3 0, #6f28c3 25%, #4f23c3 50%, #1020c3 75%, #0020c3 100%);
+    height: 100vh;
+}
+
+.links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  
+}
+.links a{
+    padding: 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    font-size: 35px;
+}
+
+.links li{
+    background-color: black;
+    border-radius: 5rem;
+    margin: 10px;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+}
+
+.contato img{
+    width: 10rem;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 5rem;
+}
